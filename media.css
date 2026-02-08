@@ -1,0 +1,33 @@
+@media only screen and (min-width: 200px) and (max-width:575px) {
+
+    .nav-section a {
+        color: white;
+    }
+
+    .img-sec {
+        margin-top: 3rem;
+    }
+
+    .nav-2 {
+        color: #fff;
+    }
+
+    
+
+
+
+}
+
+
+/* @media (max-width: 575px) {
+
+    .nav-section a {
+        color: #fff;
+    }
+
+    .img-sec {
+        margin-top: 3rem;
+    }
+} */
+
+    

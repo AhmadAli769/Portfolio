@@ -1,0 +1,25 @@
+:root {
+            --primary-color: #4e54c8;
+            --secondary-color: #8f94fb;
+            --dark-color: #121212;
+            --light-color: #f8f9fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero {
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 100px 0;
+        }
+        .project-card {
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translatey(-10px);
+        }
+        footer {
+            background-color: var(--dark-color);
+            color: var(--light-color);
+        }
